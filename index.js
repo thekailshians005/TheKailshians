@@ -39,8 +39,8 @@ setInterval(()=>{
 }
 animation()
 window.onscroll  = ()=>{
-    let Height = (window.scrollY - 1250 ) 
-    if(window.scrollY > 1300  && window.scrollY < 3420){
+    let Height = (window.scrollY - 1625 ) 
+    if(window.scrollY > 1350  && window.scrollY < 3620){
          if((process.clientHeight)-50 >= Height){
              animatedLine.style.height = Height + 'px'
          }
